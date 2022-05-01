@@ -1,0 +1,22 @@
+:root {
+  --primary-background: rgba(var(--primary-background-rgb), 0.75);
+  --secondary-background: rgba(var(--secondary-background-rgb), 0.15);
+
+  --message-box: rgba(var(--secondary-background-rgb), 0.75);
+  --block: rgba(var(--primary-background-rgb), 0.75);
+}
+
+#app:before {
+    z-index: -999;
+    background: url('https://www.3dwallpaperarts.com/wp-content/uploads/2021/05/ahegao-wallpaper-0043-1536x864.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(2px) brightness(1);
+    position: absolute;
+    content: 'e';
+    display: block;
+    inset: 0;
+    top: 0;
+}
