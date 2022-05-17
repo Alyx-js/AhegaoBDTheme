@@ -17,7 +17,7 @@
 }
 
 div#header {
-    background-image: url("https://cdnio.luscious.net/71/another_wallpaper_i_made_1920x1080_2004972373.jpg");
+    background-image: url("https://cdn.donmai.us/sample/0e/cd/sample-0ecd490cdb5835b3e26834628db437d5.jpg");
     background-color: navy;
     background-position: 0px -200px;
     text-align: center;
@@ -46,8 +46,9 @@ h4 {
 
 body {
     color: white;
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=113965");
     background-color: #ffe0e5;
-    background-image: url("https://cdnio.luscious.net/71/another_wallpaper_i_made_1920x1080_2004972373.jpg");
+    background-image: url("https://cdn.donmai.us/sample/0e/cd/sample-0ecd490cdb5835b3e26834628db437d5.jpg");
     background-size: cover;
     background-attachment:fixed;
     font-family: "Courier New", monospace;
@@ -86,7 +87,7 @@ body {
     background-repeat: no-repeat;
     background-color: #C8A2C8;
     background-size: cover;
-    background-image: url("https://raikou1.donmai.us/sample/0e/cd/sample-0ecd490cdb5835b3e26834628db437d5.jpg");
+    background-image: url("https://w315.luscious.net/DirtyOldMan/351995/ahegao-girl-pics-224_01DNBQWAY7HKJJNF2DG1CG7QTP.315x0.jpg");
     border: 2px solid navy;
     box-sizing: border-box;
 }
@@ -181,4 +182,5 @@ a:hover {
 }
 
 .box.blog {
-    background: lightblue;
+    background: lightblue;   
+}
