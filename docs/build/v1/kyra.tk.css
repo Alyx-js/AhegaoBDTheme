@@ -1,10 +1,10 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym829.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym829.png), auto !important;} /* End https://www.cursors-4u.com */
 
-logo{
+.top {
       font-size:0;
 }
 
-div#top::after{
+.top::after{
     content:"cotton candy heart ❤";
     text-shadow: 2px 2px 4px #000;
     color: #fff;
@@ -14,7 +14,7 @@ div#top::after{
     
 }
 
-div#extended {
+.extended {
     background-image: url(https://i.ibb.co/sK8Mz3C/tumblr-ef48b504d330d0eed928069280ab15cc-d950e318-400.jpg);
     background-color: #FF69B4;
     background-position: 0px -200px;
