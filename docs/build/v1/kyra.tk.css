@@ -48,7 +48,7 @@ body {
     color: white;
     background-color: #ffe0e5;
     background-image: url("https://cdnio.luscious.net/71/another_wallpaper_i_made_1920x1080_2004972373.jpg");
-    background-size: 33%;
+    background-size: cover;
     background-attachment:fixed;
     font-family: "Courier New", monospace;
 }
