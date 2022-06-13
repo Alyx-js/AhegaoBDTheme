@@ -1,0 +1,312 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
+
+:root {
+	--columns: 3;
+	--guildsize: 50;
+	--guildgap: 3;
+	--aligndms: 1;
+}
+
+.titleBar-1it3bQ.typeMacOS-3V4xXE,
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e,
+.wrapper-1_HaEi,
+.Base-sc-yb16g4-0 efyrH.unreadMentionsIndicatorTop-2bTgUU,
+.Base-sc-yb16g4-0 efyrH.unreadMentionsIndicatorBottom-3RJMnQ {
+	width: calc(1px * (var(--guildsize) * var(--columns) + 20 * (var(--guildsize)/50) + 14 * (var(--guildsize)/50) * (var(--columns) - 1))) !important;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+	padding-right: calc(1px * ((var(--guildsize) + 12 * var(--guildsize)/50) * var(--columns) - 50)) !important;
+}
+body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE,
+body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+	width: calc(2px * ((var(--guildsize) + 12 * var(--guildsize)/50) * var(--columns) + 35 - 25)) !important;
+}
+body.folderContentIsOpen-zz6FgW .titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+	padding-right: calc(1px * ((var(--guildsize) + 12 * var(--guildsize)/50) * var(--columns) * 2 - 40)) !important;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE.typeMacOSWithFrame-1XEpN7 .macButtons-eIdy0e {
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH{
+	padding: 0 !important;
+}
+.wrapper-1_HaEi.hidden-10MsGQ {
+	width: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.virtuoso-scroller {
+	padding: 0 0 calc(10px * var(--guildsize)/50) calc(10px * var(--guildsize)/50) !important;
+}
+.Base-sc-yb16g4-0 efyrH.virtuoso-scroller.none-2-_0dP::-webkit-scrollbar {
+	width: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.virtuoso-scroller,
+.Base-sc-yb16g4-0 efyrH.virtuoso-scroller > [role="tree"],
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK + div[aria-label]:not([class]) {
+	margin: 0 !important;
+	display: flex !important;
+	flex-flow: row wrap !important;
+	align-content: flex-start !important;
+}
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK {
+	margin: calc(1px * var(--guildgap)) calc(1px * (12 * var(--guildsize)/50)) calc(1px * var(--guildgap)) 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH#server-search {
+	margin: calc(1px * var(--guildgap)) calc(1px * (((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#server-search .pill-3YxEhL {
+	display: none;
+}
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK:first-child .listItemWrapper-3d87LP {
+	margin: 0 calc(1px * (((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2)) calc(1px * var(--guildgap)) calc(1px * ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2))) !important;
+}
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK:first-child .pill-22lZHo ~ .listItemWrapper-3d87LP {
+	margin: 0 calc(1px * ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))) 0 calc(1px * (((0 * var(--aligndms)) + ((((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))))) !important;
+}
+.Base-sc-yb16g4-0 efyrH.blobContainer-ikKyFs,
+.Base-sc-yb16g4-0 efyrH.guildsError-YJjW3A {
+	margin: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK {
+	width: auto !important;
+}
+.Base-sc-yb16g4-0 efyrH.tutorialContainer-1pL9QS {
+	width: 100%;
+}
+.Base-sc-yb16g4-0 efyrH.placeholderMask-3Z1hhV,
+.Base-sc-yb16g4-0 efyrH.svg-2zuE5p,
+.Base-sc-yb16g4-0 efyrH.wrapper-28eC3z {
+	height: calc(1px * var(--guildsize)) !important;
+	width: calc(1px * var(--guildsize)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.virtuoso-scroller > div[style*="height"]:not([class]) {
+	height: calc(1px * var(--guildsize) * (58/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.upperBadge-1V6Iyi .base-3IDx3L {
+	transform: translate(calc(1.5px * ((50 - var(--guildsize))/10)), calc(-1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.upperLeftBadge-e35IpL .base-3IDx3L {
+	transform: translate(calc(-1.5px * ((50 - var(--guildsize))/10)), calc(-1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.lowerBadge-3WTshO .base-3IDx3L {
+	transform: translate(calc(1.5px * ((50 - var(--guildsize))/10)), calc(1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.lowerLeftBadge-zr4T_9 .base-3IDx3L {
+	transform: translate(calc(-1.5px * ((50 - var(--guildsize))/10)), calc(1.5px * ((50 - var(--guildsize))/10))) scale(calc(var(--guildsize)/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.wrapper-z5ab_q {
+	top: calc(-5px * var(--guildsize)/50) !important;
+	height: calc(1px * (var(--guildsize) + 10 * var(--guildsize)/50)) !important;
+	transform: scale(calc(var(--guildsize)/50)) !important;
+	transform-origin: 0 50% !important;
+}
+.Base-sc-yb16g4-0 efyrH.pill-L_aLMQ {	/*	home	*/ 
+	left: calc(1px * ((((var(--guildsize) + 10 * var(--guildsize)/50) * (var(--columns) - 1))/2) - 9)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.pill-22lZHo {	/*	dm		*/ 
+	left: calc(1px * ((var(--aligndms) + ((((var(--guildsize) + 10 * var(--guildsize)/50) * (var(--columns) - 1))/2) * (1 - var(--aligndms)))) - 8)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.pill-2RsI5Q,	/*	guild	*/ 
+.Base-sc-yb16g4-0 efyrH.pill-1fqNCF {	/* 	button	*/
+	left: calc(-10px * var(--guildsize)/50) !important;
+}
+.Base-sc-yb16g4-0 efyrH.guildSeparator-a4uisj {
+	width: calc(1px * ((var(--guildsize) + 12 * var(--guildsize)/50) * var(--columns) - (12 * var(--guildsize)/50))) !important;
+	margin: calc(1px * (var(--guildsize)/10)) 0 !important;
+	display: block !important;
+}
+.Base-sc-yb16g4-0 efyrH[role=tree] ~ .listItem-3SmSlK .listItemWrapper-3d87LP,
+.Base-sc-yb16g4-0 efyrH[role=tree] ~ * .listItem-3SmSlK .listItemWrapper-3d87LP,
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK + div[aria-label]:not([class]) ~ .listItem-3SmSlK .listItemWrapper-3d87LP,
+.Base-sc-yb16g4-0 efyrH.listItem-3SmSlK + div[aria-label]:not([class]) ~ * .listItem-3SmSlK .listItemWrapper-3d87LP {
+	margin: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.guildsError-YJjW3A {
+	height: calc(1px * var(--guildsize)) !important;
+	width: calc(1px * var(--guildsize)) !important;
+	font-size: calc(1px * (var(--guildsize)/4 + 7.5)) !important;
+	line-height: calc(1px * (var(--guildsize)/4 + 6.5)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#bd-pub-li,
+.Base-sc-yb16g4-0 efyrH#bd-pub-li #bd-pub-button,
+.Base-sc-yb16g4-0 efyrH#sort-button,
+.Base-sc-yb16g4-0 efyrH#sort-button > div,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 .button-Jt-tIg {
+	height: calc(1px * ((var(--guildsize)/5) + 10)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.friendsOnline-2JkivW,
+.Base-sc-yb16g4-0 efyrH.label-2wRs_g {
+	display: flex !important;
+	justify-content: center !important;
+	width: calc(1px * (var(--guildsize) * var(--columns) + 20 * (var(--guildsize)/50) + 14 * (var(--guildsize)/50) * (var(--columns) - 1) - (20 * var(--guildsize)/50) calc(10px * var(--guildsize)/50))) !important;
+	margin: 0 !important;
+	font-size: calc(1px * ((var(--guildsize)/8) + 3)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#bd-pub-li,
+.Base-sc-yb16g4-0 efyrH#sort-button,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 {
+	width: calc(1px * ((var(--guildsize)*4/5) + 12 * var(--guildsize)/50)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#bd-pub-li,
+.Base-sc-yb16g4-0 efyrH#sort-button,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 {
+	text-align: center !important;
+	margin: calc(1px * var(--guildgap)) calc(1px * (((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1) - ((var(--guildsize)*4/5) + 12 * var(--guildsize)/50) + var(--guildsize))/2)) calc(1px * var(--guildgap)) calc(1px * (((var(--guildsize) + 12 * var(--guildsize)/50) * (var(--columns) - 1) - ((var(--guildsize)*4/5) + 12 * var(--guildsize)/50) + var(--guildsize))/2)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.tutorialContainer-1pL9QS #bd-pub-li {
+	margin-top: calc(2px * var(--guildgap)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#sort-button > div,
+.Base-sc-yb16g4-0 efyrH#bd-pub-li #bd-pub-button,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 .innerFrame-8Hg64E,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 .button-Jt-tIg {
+	white-space: pre !important;
+	font-size: calc(1px * ((var(--guildsize)/8) + 5)) !important;
+	line-height: calc(1px * ((var(--guildsize)/5) + 10)) !important;
+}
+.Base-sc-yb16g4-0 efyrH#sort-button > div,
+.Base-sc-yb16g4-0 efyrH#bd-pub-li #bd-pub-button,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 .innerFrame-8Hg64E,
+.Base-sc-yb16g4-0 efyrH.frame-oXWS21 .button-Jt-tIg {
+	width: 100% !important;
+}
+
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD {
+	border-bottom: calc(1px * var(--guildgap)) solid transparent !important;
+	margin: calc(1px * var(--guildgap)) calc(1px * (12 * var(--guildsize)/50)) auto 0 !important;
+	width: calc(1px * var(--guildsize)) !important;
+}
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD > .listItem-3SmSlK {
+	margin: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"] {
+	overflow: visible !important;
+	margin-left: -1px !important;
+	margin-bottom: 0 !important;
+	padding-left: 1px !important;
+}
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"] .listItem-3SmSlK {
+	margin: 6px 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"] .listItem-3SmSlK:last-child {
+	margin-bottom: 0 !important;
+}
+.Base-sc-yb16g4-0 efyrH.expandedFolderBackground-1kSAf6 {
+	width: calc(1px * var(--guildsize)) !important;
+	top: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+html .typingindicator-guild,
+html .typingindicator-dms,
+html .typingindicator-folder {
+	right: 3px !important;
+	top: calc(var(--guildsize) * 1px - 5px) !important;
+	bottom: unset !important;
+}
+
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 56px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 112px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 168px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 224px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 280px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 336px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 392px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 448px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 504px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 560px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 616px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 672px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 728px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 784px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 840px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 896px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 952px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1008px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1064px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1120px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1176px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1232px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1288px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1344px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1400px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1456px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1512px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1568px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1624px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1680px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1736px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1792px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1848px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1904px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 1960px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2016px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2072px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2128px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2184px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2240px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2296px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2352px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2408px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2464px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2520px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2576px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2632px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2688px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2744px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2800px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2856px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2912px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 2968px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3024px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3080px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3136px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3192px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3248px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3304px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3360px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3416px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3472px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3528px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3584px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3640px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3696px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3752px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3808px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3864px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3920px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 3976px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4032px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4088px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4144px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4200px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4256px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4312px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4368px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4424px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4480px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4536px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4592px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4648px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4704px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4760px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4816px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4872px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4928px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 4984px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5040px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5096px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5152px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5208px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5264px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5320px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5376px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5432px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5488px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5544px;"],
+.Base-sc-yb16g4-0 efyrH.wrapper-38slSD [role="group"][style="height: 5600px;"] {
+	height: unset !important;
+}
