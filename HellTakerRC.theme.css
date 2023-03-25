@@ -1,0 +1,35 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url('https://alyx-js.github.io/AhegaoBDTheme/build/v1/AngerStyles.ttf');
+}
+
+* {
+   font-family: myFirstFont;
+   color: white;
+   font-size: 13px;
+}
+* {
+  --status-focus: #BFDBFF;
+}
+:root {
+  --accent: purple;
+  --primary-background: rgba(var(--primary-background-rgb), 0.75);
+  --secondary-background: rgba(var(--secondary-background-rgb), 0.15);
+  --message-box: rgba(var(--secondary-background-rgb), 0.75);
+  --block: rgba(var(--primary-background-rgb), 0.75);
+}
+#app:before {
+    background: url("https://autumn.revolt.chat/attachments/sPeyUYSUy3_K9HJjoEg6rnXjiVXw7ZqbYnRa75lghd/HellTaker.png");
+    z-index: -999;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(0px) brightness(1.1);
+    position: absolute;
+    content: 'e';
+    display: block;
+    inset: 0;
+    top: 0;
+}
